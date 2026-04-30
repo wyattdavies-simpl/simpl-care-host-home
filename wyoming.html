@@ -1,9 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Become a Simpl Care Host Home provider in Wyoming. We support providers through the process of establishing and maintaining a host home under Wyoming's DD Waiver.">
+  <title>Wyoming Host Home Provider Program | Simpl Care</title>
+  <link rel="icon" type="image/png" href="https://simplcareservices.com/favicon.ico">
 <!-- ============================================================
      SIMPL CARE — Wyoming Host Home Landing Page
-     Paste this entire block into a Webflow Embed element.
      ============================================================ -->
 <style>
   /* ---------- scoped reset ---------- */
+  html, body { margin: 0; padding: 0; }
   .sc-hh, .sc-hh *, .sc-hh *::before, .sc-hh *::after { box-sizing: border-box; }
   .sc-hh { all: initial; display: block; }
 
@@ -553,63 +561,6 @@
   .sc-hh .faq-body p { margin-bottom: 12px; }
   .sc-hh .faq-body p:last-child { margin-bottom: 0; }
 
-  /* ---------- TESTIMONIALS ---------- */
-  .sc-hh .testimonials {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
-  }
-  .sc-hh .quote {
-    background: #ffffff;
-    border-radius: 20px;
-    padding: 28px 26px;
-    border: 1px solid rgba(7,122,189,0.10);
-    box-shadow: 0 8px 20px -8px rgba(7,122,189,0.15);
-    position: relative;
-  }
-  .sc-hh .quote .qmark {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 56px;
-    line-height: 1;
-    color: rgba(7,122,189,0.18);
-    position: absolute;
-    top: 14px; right: 22px;
-    font-weight: 700;
-  }
-  .sc-hh .quote p {
-    font-size: 15.5px;
-    color: rgba(0,63,81,0.85);
-    line-height: 1.65;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-  }
-  .sc-hh .quote .who {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-  .sc-hh .quote .avatar {
-    width: 42px; height: 42px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #077abd, #0491d9);
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 16px;
-  }
-  .sc-hh .quote .who h5 {
-    font-size: 15px;
-    color: #003f51;
-    font-weight: 700;
-  }
-  .sc-hh .quote .who span {
-    font-size: 13px;
-    color: rgba(0,63,81,0.6);
-  }
-
   /* ---------- BIG CTA ---------- */
   .sc-hh .big-cta {
     background: linear-gradient(135deg, #077abd 0%, #0491d9 100%);
@@ -669,7 +620,6 @@
     .sc-hh .explainer { grid-template-columns: 1fr; gap: 32px; }
     .sc-hh .paths { grid-template-columns: 1fr; }
     .sc-hh .helps { grid-template-columns: 1fr; }
-    .sc-hh .testimonials { grid-template-columns: 1fr; }
     .sc-hh .checks { grid-template-columns: 1fr; }
     .sc-hh .eligibility { padding: 48px 28px; border-radius: 24px; }
     .sc-hh .big-cta { padding: 56px 28px; border-radius: 24px; }
@@ -688,6 +638,8 @@
     }
   }
 </style>
+</head>
+<body>
 
 <div class="sc-hh">
 
@@ -967,49 +919,6 @@
     </div>
   </section>
 
-  <!-- ============= TESTIMONIALS ============= -->
-  <section class="section">
-    <div class="wrap">
-      <div class="section-tag">Real providers</div>
-      <h2 class="section-title">Trusted by families across Wyoming.</h2>
-      <div class="testimonials">
-        <div class="quote">
-          <div class="qmark">"</div>
-          <p>Switching to Simpl Care was the easiest decision I've made as a Host Home provider. The app makes documentation so much faster, and I actually get paid more than I did at my previous agency.</p>
-          <div class="who">
-            <div class="avatar">JM</div>
-            <div>
-              <h5>Jessica M.</h5>
-              <span>Host Home provider · Cheyenne, WY</span>
-            </div>
-          </div>
-        </div>
-        <div class="quote">
-          <div class="qmark">"</div>
-          <p>I was overwhelmed at the idea of becoming a Host Home provider for my brother. Simpl Care walked me through every form, every certification, and every training. They genuinely made it simple.</p>
-          <div class="who">
-            <div class="avatar">RT</div>
-            <div>
-              <h5>Robert T.</h5>
-              <span>First-time provider · Casper, WY</span>
-            </div>
-          </div>
-        </div>
-        <div class="quote">
-          <div class="qmark">"</div>
-          <p>Their dedication to continuous improvement is commendable. Whenever I have a question, I get a real person — and the response is always quick and helpful.</p>
-          <div class="who">
-            <div class="avatar">SK</div>
-            <div>
-              <h5>Sarah K.</h5>
-              <span>Host Home provider · Laramie, WY</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ============= BIG CTA ============= -->
   <section class="section tight">
     <div class="wrap">
@@ -1029,3 +938,5 @@
 
 </div>
 <!-- End Simpl Care — Wyoming Host Home Landing Page -->
+</body>
+</html>
